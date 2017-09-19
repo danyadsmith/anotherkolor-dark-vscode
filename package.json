@@ -1,0 +1,22 @@
+{
+  "name": "anotherkolordark",
+  "displayName": "AnotherKolor Dark",
+  "description": "Another Kolor by Danya D. Smith inspired by Kolor for Espresso 2 by Josh Kill",
+  "version": "0.0.2",
+  "publisher": "danyadsmith",
+  "engines": {
+    "vscode": "^1.16.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Another Kolor (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Another Kolor (Dark)-color-theme.json"
+      }
+    ]
+  }
+}
