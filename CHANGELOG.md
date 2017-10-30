@@ -6,3 +6,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 - 0.0.1 - Initial release. 
 - 0.0.2 - Updates color theme to include terminal colors
+- 0.0.3 - Adds light version of theme. Refines JSON colors in dark theme
