@@ -1,9 +1,9 @@
 {
-	"name": "Another Kolor (Dark)",
-	"type": "dark",
+	"name": "Another Kolor (Light)",
+	"type": "light",
 	"colors": {
-		"editor.background": "#222222",
-		"editor.foreground": "#eeeeee",
+		"editor.background": "#E4E0D7",
+		"editor.foreground": "#222222",
 		"focusBorder": "#e5349B",
 		"selection.background": "#e5349b",
 		"activityBarBadge.background": "#e5349B",
@@ -255,7 +255,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#dad6c3"
+				"foreground": "#736240"
 			}
 		},
 		{
