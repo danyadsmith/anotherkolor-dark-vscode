@@ -1,27 +1,27 @@
 {
-    "name": "anotherkolor",
-    "displayName": "AnotherKolor",
-    "description": "Another Kolor by Danya D. Smith inspired by Kolor for Espresso 2 by Josh Kill",
-    "version": "0.1.0",
-    "publisher": "danyadsmith",
-    "engines": {
-        "vscode": "^1.16.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Another Kolor (Dark)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Another Kolor (Dark)-color-theme.json"
-            },
-            {
-                "label": "Another Kolor (Light)",
-                "uiTheme": "vs",
-                "path": "./themes/Another Kolor (Light)-color-theme.json"
-            }
-        ]
-    }
+  "name": "anotherkolor",
+  "displayName": "AnotherKolor",
+  "description": "Another Kolor by Danya D. Smith inspired by Kolor for Espresso 2 by Josh Kill",
+  "version": "0.1.0",
+  "publisher": "danyadsmith",
+  "engines": {
+    "vscode": "^1.16.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Another Kolor (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Another Kolor (Dark)-color-theme.json"
+      },
+      {
+        "label": "Another Kolor (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/Another Kolor (Light)-color-theme.json"
+      }
+    ]
+  }
 }
