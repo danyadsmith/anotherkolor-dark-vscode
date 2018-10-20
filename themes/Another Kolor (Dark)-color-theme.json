@@ -155,8 +155,7 @@
 			"name": "Function, Special Method",
 			"scope": [
 				"meta.function.expression.js",
-				"meta.function-call.js entity.name.function",
-				"meta.block"
+				"meta.function-call.js entity.name.function"
 			],
 			"settings": {
 				"foreground": "#4EA828"
@@ -674,8 +673,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#90c9dc",
-				"fontStyle": "bold"
+				"foreground": "#625CAB"
 			}
 		},
 		{
