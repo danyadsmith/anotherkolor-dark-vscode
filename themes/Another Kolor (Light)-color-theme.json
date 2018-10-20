@@ -114,7 +114,9 @@
 				"entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter",
-				"meta.tag.inline.any.html"
+				"meta.tag.inline.any.html",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end"
 			],
 			"settings": {
 				"foreground": "#32B1DB"
