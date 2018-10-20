@@ -114,7 +114,9 @@
 				"entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter",
-				"meta.tag.inline.any.html"
+				"meta.tag.inline.any.html",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end"
 			],
 			"settings": {
 				"foreground": "#32B1DB"
@@ -127,7 +129,7 @@
 				"string.quoted.single.html"
 			],
 			"settings": {
-				"foreground": "#FEFED0"
+				"foreground": "#D9D5C1"
 			}
 		},
 		{
@@ -226,7 +228,8 @@
 			"name": "Variable Parameter",
 			"scope": [
 				"variable.parameter",
-				"variable.parameter.js"
+				"variable.parameter.js",
+				"meta.template",
 			],
 			"settings": {
 				"foreground": "#FFAF47"
@@ -566,7 +569,8 @@
 			"name": "HTML Attributes",
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
+				"text.html.basic entity.other.attribute-name",
+				"entity.other.attribute-name.html"
 			],
 			"settings": {
 				"foreground": "#B4E3F2"
@@ -691,7 +695,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#dad6c3"
+				"foreground": "#625CAB"
 			}
 		},
 		{
@@ -709,7 +713,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#dad6c3"
+				"foreground": "#625CAB"
 			}
 		},
 		{
@@ -727,7 +731,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#dad6c3"
+				"foreground": "#625CAB"
 			}
 		},
 		{
@@ -737,6 +741,7 @@
 			],
 			"settings": {
 				"foreground": "#c4bfd5"
+				
 			}
 		},
 		{
@@ -745,7 +750,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#dad6c3"
+				"foreground": "#625CAB"
 			}
 		},
 		{
@@ -760,7 +765,7 @@
 				"puntuation.definition.metadata.markdown"
 			],
 			"settings": {
-				"foreground": "#aaa",
+				"foreground": "#999",
 				"background": "#E4E0D7"
 			}
 		},
@@ -907,7 +912,7 @@
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#A9C45A"
+				"foreground": "#FAB144"
 			}
 		},
 		{
@@ -915,10 +920,11 @@
 			"scope": [
 				"markup.raw.block",
 				"markup.inline.raw.markdown",
-				"punctuation.definition.raw.markdown"
+				"punctuation.definition.raw.markdown",
+				"markup.inline.raw.string.markdown"
 			],
 			"settings": {
-				"foreground": "#FAB144"
+				"foreground": "#A9C45A"
 			}
 		},
 		{
@@ -1001,6 +1007,15 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#b267e6"
+			}
+		},
+		{
+			"scope": [
+				"meta.object-literal.key.ts",
+				"meta.object.member.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#90c9d3"
 			}
 		}
 	]
