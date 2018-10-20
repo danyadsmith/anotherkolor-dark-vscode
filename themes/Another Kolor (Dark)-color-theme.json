@@ -43,7 +43,9 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation.definition.block"
+				"punctuation.definition.block",
+				"punctuation.separator.parameter.js",
+				"punctuation.terminator.statement.js"
 			],
 			"settings": {
 				"foreground": "#aaa"
@@ -108,9 +110,7 @@
 				"entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter",
-				"meta.tag.inline.any.html",
-				"punctuation.definition.tag.begin",
-				"punctuation.definition.tag.end"
+				"meta.tag.inline.any.html"
 			],
 			"settings": {
 				"foreground": "#32B1DB"
@@ -123,7 +123,7 @@
 				"string.quoted.single.html"
 			],
 			"settings": {
-				"foreground": "#D9D5C1"
+				"foreground": "#FEFED0"
 			}
 		},
 		{
@@ -150,8 +150,10 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
-				"meta.function.expression.js",
-				"meta.function-call.js entity.name.function"
+				"meta.function-call.js",
+				"meta.function-call.js entity.name.function.js",
+				"meta.function-call.ts entity.name.function.ts",
+				"entity.name.function.js meta.function-call.js"
 			],
 			"settings": {
 				"foreground": "#4EA828"
@@ -222,8 +224,7 @@
 			"name": "Variable Parameter",
 			"scope": [
 				"variable.parameter",
-				"variable.parameter.js",
-				"meta.template",
+				"variable.parameter.js"
 			],
 			"settings": {
 				"foreground": "#FFAF47"
@@ -564,7 +565,7 @@
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
 				"text.html.basic entity.other.attribute-name",
-				"entity.other.attribute-name.html"
+				"entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#B4E3F2"
@@ -689,7 +690,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#625CAB"
+				"foreground": "#625cab"
 			}
 		},
 		{
@@ -707,7 +708,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#625CAB"
+				"foreground": "#625cab"
 			}
 		},
 		{
@@ -725,7 +726,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#625CAB"
+				"foreground": "#625cab"
 			}
 		},
 		{
@@ -735,7 +736,6 @@
 			],
 			"settings": {
 				"foreground": "#c4bfd5"
-				
 			}
 		},
 		{
@@ -744,7 +744,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#625CAB"
+				"foreground": "#625cab"
 			}
 		},
 		{
@@ -759,7 +759,7 @@
 				"puntuation.definition.metadata.markdown"
 			],
 			"settings": {
-				"foreground": "#999",
+				"foreground": "#aaa"
 			}
 		},
 		{
@@ -769,7 +769,7 @@
 				"markup.list.unnumbered.markdown"
 			],
 			"settings":{
-				"foreground": "#E5349B",
+				"foreground": "#E5349B"
 			}
 		},
 		{
@@ -787,6 +787,7 @@
 				"text.html.markdown meta.dummy.line-break"
 			],
 			"settings": {
+				"foreground": "#fff"
 			}
 		},
 		{
@@ -902,7 +903,7 @@
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#FAB144"
+				"foreground": "#A9C45A"
 			}
 		},
 		{
@@ -910,11 +911,10 @@
 			"scope": [
 				"markup.raw.block",
 				"markup.inline.raw.markdown",
-				"punctuation.definition.raw.markdown",
-				"markup.inline.raw.string.markdown"
+				"punctuation.definition.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#A9C45A"
+				"foreground": "#FAB144"
 			}
 		},
 		{
@@ -996,15 +996,6 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#b267e6"
-			}
-		},
-		{
-			"scope": [
-				"meta.object-literal.key.ts",
-				"meta.object.member.object-literal.key"
-			],
-			"settings": {
-				"foreground": "#90c9d3"
 			}
 		}
 	]
