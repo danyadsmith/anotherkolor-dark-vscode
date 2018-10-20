@@ -31,12 +31,6 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"foreground": "#eeffffff",
-				"background": "#263238ff"
-			}
-		},
-		{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -766,7 +760,6 @@
 			],
 			"settings": {
 				"foreground": "#999",
-				"background": "#E4E0D7"
 			}
 		},
 		{
@@ -777,7 +770,6 @@
 			],
 			"settings":{
 				"foreground": "#E5349B",
-				"background": "#E4E0D7"
 			}
 		},
 		{
@@ -795,7 +787,6 @@
 				"text.html.markdown meta.dummy.line-break"
 			],
 			"settings": {
-				"foreground": ""
 			}
 		},
 		{
@@ -884,8 +875,7 @@
 				"markup.quote.markdown"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": ""
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -972,7 +962,6 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"background": "#00000050",
 				"foreground": "#65737E"
 			}
 		},
